@@ -1,5 +1,5 @@
 # Makes basic math calculations,
-def calculator(num_1: float, num_2: float):
+def calculator(num_1: float, num_2: float) -> float:
     calc1 = num_1 + num_2
     calc2 = num_1 - num_2
     calc3 = num_1 * num_2
