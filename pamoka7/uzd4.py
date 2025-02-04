@@ -28,7 +28,7 @@ print(value)
     
 
 # Calculate average speed in meters/sec .Distance is given in Km and time in hours.
-def average_speed(distance_km: float, time_hours: int):
+def average_speed(distance_km: float, time_hours: int) -> float:
     distance_metr = distance_km * 1000
     time_sec = time_hours * 3600
     average_speed = distance_metr / time_sec
