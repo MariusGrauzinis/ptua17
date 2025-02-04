@@ -15,7 +15,7 @@ print(value)
 
 
 # Converts Celsius from faranheit.
-def temperature(celsius: float, farenheit_scale_start: int, scale_cels: int, farenheit_scale: int):
+def temperature(celsius: float, farenheit_scale_start: int, scale_cels: int, farenheit_scale: int) ->float:
     farenheit_temp = (celsius - farenheit_scale_start) * scale_cels/farenheit_scale
     return farenheit_temp
     
