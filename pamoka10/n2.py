@@ -5,15 +5,12 @@
 
 
 def process_numbers(numbers: list) -> tuple:
+    square_list = []
     sum = 0
     for i in  numbers:
         sum += i
-    print(i)
-
-    square_list = []
-    for i in numbers:
         square_list.append(i * i)
-       
+    
     return sum, square_list
 
 print(process_numbers([1, 2, 3, 8]))
