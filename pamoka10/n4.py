@@ -2,9 +2,12 @@
 # Return the average score for each person.
 # Create and return a new list of dictionaries with each dictionary containing the person's name and their highest test score.
 
-def process_scores(people_scores: list) -> tuple:
-    average_scores = []
-    highest_scores = []
+from typing import Dict, List, Tuple
+
+
+def process_scores(people_scores: List[Dict[str,List[int]]]) -> Tuple[List[float], List[Dict[str, int]]]:
+    average_scores: List[float]= []
+    highest_scores: List[Dict[str, int]] = []
     
     for person in people_scores:
         name = person["name"]
