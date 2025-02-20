@@ -1,0 +1,13 @@
+2025-02-17 19:34:39 - INFO - The sum of numbers (10, 20, 30) is: 60
+2025-02-17 19:34:39 - INFO - The square root of 16 is: 4.0
+2025-02-17 19:39:20 - INFO - The sum of numbers (10, 20, 30) is: 60
+2025-02-17 19:39:20 - INFO - The square root of 16 is: 4.0
+2025-02-17 19:39:20 - INFO - The number of characters in sentence: 23
+2025-02-17 19:44:42 - INFO - The sum of numbers (10, 20, 30) is: 60
+2025-02-17 19:44:42 - INFO - The square root of 16 is: 4.0
+2025-02-17 19:44:42 - INFO - The number of characters in sentence: 23
+2025-02-17 19:44:42 - INFO - The division of 8 and 5 gives 1.6
+2025-02-17 19:46:32 - INFO - The sum of numbers (10, 20, 30) is: 60
+2025-02-17 19:46:32 - INFO - The square root of 16 is: 4.0
+2025-02-17 19:46:32 - INFO - The number of characters in sentence: 23
+2025-02-17 19:46:32 - INFO - The division of 8 and 5 gives 1.6

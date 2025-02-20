@@ -1,0 +1,11 @@
+2025-02-17 19:05:33 - INFO - User input: jonas
+2025-02-17 19:05:34 - INFO - User input: petras
+2025-02-17 19:06:34 - INFO - User input: labas
+2025-02-17 19:06:35 - INFO - User input: jonas
+2025-02-17 19:06:37 - INFO - User input: petras
+2025-02-17 19:06:38 - INFO - User input: sadas
+2025-02-17 19:06:39 - INFO - User input: 222
+2025-02-17 19:06:45 - INFO - User input: enc
+2025-02-17 19:09:18 - INFO - User input: jonas
+2025-02-17 19:09:21 - INFO - User input: \alals
+2025-02-17 19:09:25 - INFO - User input: koko
