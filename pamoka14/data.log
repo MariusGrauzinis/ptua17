@@ -1,0 +1,4 @@
+2025-02-24 19:09:04 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cataas.com:443
+2025-02-24 19:09:04 - urllib3.connectionpool - DEBUG - https://cataas.com:443 "GET /cat HTTP/1.1" 200 166974
+2025-02-24 19:09:28 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): cataas.com:443
+2025-02-24 19:09:28 - urllib3.connectionpool - DEBUG - https://cataas.com:443 "GET /cat HTTP/1.1" 200 128854
