@@ -1,0 +1,2 @@
+ERROR:root:Klaida skaitant fail\u0105 test.json: [Errno 2] No such file or directory: 'test.json'
+ERROR:root:Klaida skaitant fail\u0105 mo.json: [Errno 2] No such file or directory: 'mo.json'
