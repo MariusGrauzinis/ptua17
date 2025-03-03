@@ -6,7 +6,7 @@ def display_tasks(tasks: Dict[str, Union[str, bool]]) -> None:  #raktų ir reik�
         print("No tasks to display.")
     else:
          for index, task in enumerate(tasks):   # enumirate pereina per sarasa, ir grazina kiekvienosu uzduoties indeksa
-            status = "[x]" if task["done"] else "[ ]" #tikriname, ar užduoties done reikšmė yra True (atlikta) ar False (neatlikta).
+            status = "[✔]" if task["done"] else "[ ]" #tikriname, ar užduoties done reikšmė yra True (atlikta) ar False (neatlikta).
             print(f"{index + 1}. {task['task']} {status}") #kad numeracija prasidėtų nuo 1 (vietoje 0).
 
 def add_task(tasks: Dict[str, Union[str, bool]]) -> None:
