@@ -25,7 +25,7 @@ def mark_task_completed(tasks: Dict[str, Union[str, bool]]) -> None: # tikrina, 
                 break   #Baigiame ciklą, kai užduotis pažymėta
             else:
                 print("Invalid task number. Please enter a valid task number.")
-        except ValueError:    #Jei vartotojas įveda kažką, kas nėra skaičius (pvz., raidę arba specialų simbolį), atsiranda klaida
+        except ValueError:    #Jei vartotojas įveda  (pvz., raidę arba specialų simbolį), atsiranda klaida
             print("Please enter a valid number.")
 
 def remove_task(tasks: Dict[str, Union[str, bool]]) -> None:
