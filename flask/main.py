@@ -8,15 +8,20 @@ SECRET_KEY = "my_secret_key"
 app.config['SECRET_KEY'] = SECRET_KEY
  
 
+file_name = "straipsniai.txt"
+
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         date = request.form['date']
+        el_pastas = request.form['el_pastas']
         autorius = request.form['autorius']
         tekstas = request.form['tekstas']
         pavadinimas = request.form['pavadinimas']
         data.append({
             'data': date,
+            'el_pastas': el_pastas,
             'autorius': autorius,
             'pavadinimas': pavadinimas,
             'tekstas': tekstas,
@@ -47,6 +52,7 @@ def article(title):
 @app.route('/add_article')
 def add_article():
     return render_template('add_article.html')
+
 
 @app.route('/contact_us', methods=['GET', 'POST'])
 def contact_us():
